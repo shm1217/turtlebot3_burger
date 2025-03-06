@@ -61,7 +61,7 @@ void CmdPublisher::timer_tf_callback()
     }
     catch (const tf2::TransformException &ex)
     {
-        RCLCPP_INFO_ONCE(this->get_logger(), "Could not transform map to base_scan");
+        RCLCPP_INFO_ONCE(this->get_logger(), "Could not transform map to base_link");
         return;
     }
 
@@ -82,7 +82,7 @@ void CmdPublisher::timer_tf_callback()
 }
 void CmdPublisher::timer_cmd_callback()
 {
-    if ( not goal_received or not position_updated)
+    if (not map_update or not goal_received or not position_updated)
     {
         return;
     }
@@ -95,7 +95,7 @@ static double prev_angular_error = 0.0; // 이전 시간
 
 void CmdPublisher::moverobot()
 {
-    if ( not position_updated)
+    if (not map_update or not position_updated)
     {
         return;
     }
@@ -239,6 +239,7 @@ void CmdPublisher::map_callback(const nav_msgs::msg::OccupancyGrid::SharedPtr ms
             }
         }
     }
+    map_update=true;
 }
 
 
