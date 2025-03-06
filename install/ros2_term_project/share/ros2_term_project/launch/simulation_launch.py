@@ -1,1 +1,0 @@
-/home/seohyeongmi/ros2_ws/src/ros2_term_project/launch/simulation_launch.py
