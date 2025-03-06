@@ -5,20 +5,20 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-#OCTOMAP
+# OCTOMAP
 find_package(octomap REQUIRED)
 include_directories(${OCTOMAP_INCLUDE_DIRS})
 link_libraries(${OCTOMAP_LIBRARIES})
 add_definitions(-DOCTOMAP_NODEBUGOUT)
 
-#DYNAMICEDT
+# DYNAMICEDT
 find_package(dynamicEDT3D REQUIRED)
 include_directories(${DYNAMICEDT3D_INCLUDE_DIRS})
 set(dynamicEDT3D_DIR "/opt/ros/humble/share/dynamicEDT3D")
 set(DYNAMICEDT3D_LIBRARIES "/opt/ros/humble/lib/libdynamicedt3d.so")
 link_libraries(${DYNAMICEDT3D_LIBRARIES})
 
-# ROS2
+# ROS2 패키지 추가
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
@@ -28,6 +28,8 @@ find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(octomap_ros REQUIRED)
 find_package(octomap_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 
 set(ROS2_PACKAGES
@@ -38,13 +40,14 @@ set(ROS2_PACKAGES
   tf2_ros
   visualization_msgs
   octomap_ros
-  octomap_msgs)
+  octomap_msgs
+  nav_msgs
+  sensor_msgs)
 
-include_directories(${PROJECT_SOURCE_DIR}/include)
-
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+include_directories(
+  ${PROJECT_SOURCE_DIR}/include
+  /opt/ros/humble/include
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -56,12 +59,15 @@ endif()
 add_executable(cmd_publisher_node
         src/cmd_publisher_node.cpp
         src/cmd_publisher.cpp
-        src/map.cpp)
+        src/map.cpp
+        src/pathfinder.cpp)
+
 ament_target_dependencies(cmd_publisher_node ${ROS2_PACKAGES})
+
 install(TARGETS cmd_publisher_node
         DESTINATION lib/${PROJECT_NAME})
 
-#install launch file
+# launch 파일 설치
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )

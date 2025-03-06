@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project/cmd_publisher_node" "TARGETS" "cmd_publisher_node" "DESTINATION" "lib/ros2_term_project")

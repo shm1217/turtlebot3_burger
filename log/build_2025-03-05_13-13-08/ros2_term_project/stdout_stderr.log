@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target cmd_publisher_node[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cmd_publisher_node.dir/src/cmd_publisher_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cmd_publisher_node.dir/src/cmd_publisher.cpp.o[0m
+In file included from [01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/cmd_publisher.h:5[m[K,
+                 from [01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:2[m[K:
+[01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/map.h:25:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Knodiscard[m[K’ attribute applied to ‘[01m[Kvoid Map::get_distance_and_closest_obstacle(const point3d&, float&, octomap::point3d&) const[m[K’ with void return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Wattributes]8;;[m[K]
+   25 |   [[nodiscard]] void [01;35m[Kget_distance_and_closest_obstacle[m[K(const octomap::point3d& search_point,
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/cmd_publisher.h:5[m[K,
+                 from [01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher_node.cpp:2[m[K:
+[01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/map.h:25:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Knodiscard[m[K’ attribute applied to ‘[01m[Kvoid Map::get_distance_and_closest_obstacle(const point3d&, float&, octomap::point3d&) const[m[K’ with void return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Wattributes]8;;[m[K]
+   25 |   [[nodiscard]] void [01;35m[Kget_distance_and_closest_obstacle[m[K(const octomap::point3d& search_point,
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:[m[K In member function ‘[01m[Kvoid CmdPublisher::moverobot()[m[K’:
+[01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:210:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PathNode>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  210 |     if ([01;35m[Kcurrent_waypoint < path.size()[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:223:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PathNode>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  223 |     if ([01;35m[Ktarget_waypoint < path.size()[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:265:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PathNode>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  265 |     if (abs(x - goal_x) + abs(y - goal_y) < 0.2 || [01;35m[Kcurrent_waypoint >= path.size()[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[ 60%] [32m[1mLinking CXX executable cmd_publisher_node[0m
+[100%] Built target cmd_publisher_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/lib/ros2_term_project/cmd_publisher_node
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/launch/simulation_launch.py
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/package_run_dependencies/ros2_term_project
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/parent_prefix_path/ros2_term_project
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/path.sh
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/path.dsv
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.bash
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.sh
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.zsh
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.dsv
+-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/package.dsv
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/packages/ros2_term_project
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/cmake/ros2_term_projectConfig.cmake
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/cmake/ros2_term_projectConfig-version.cmake
+-- Up-to-date symlink: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/package.xml

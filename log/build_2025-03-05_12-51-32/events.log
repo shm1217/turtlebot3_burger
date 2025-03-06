@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (ros2_term_project) JobQueued: {'identifier': 'ros2_term_project', 'dependencies': OrderedDict()}
+[0.001104] (ros2_term_project) JobStarted: {'identifier': 'ros2_term_project'}
+[0.016161] (ros2_term_project) JobProgress: {'identifier': 'ros2_term_project', 'progress': 'cmake'}
+[0.017009] (ros2_term_project) JobProgress: {'identifier': 'ros2_term_project', 'progress': 'build'}
+[0.017855] (ros2_term_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project', '--', '-j8', '-l8'], 'cwd': '/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'seohyeongmi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seohyeongmi'), ('OLDPWD', '/home/seohyeongmi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1407'), ('SYSTEMD_EXEC_PID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10471'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seohyeongmi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seohyeongmi'), ('JOURNAL_STREAM', '8:12639'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seohyeongmi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/seohyeongmi-14Z990-GR5DK:@/tmp/.ICE-unix/1545,unix/seohyeongmi-14Z990-GR5DK:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'bc8256da7b97468f84c799333d9c4d46'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ED5422'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/seohyeongmi/ros2_ws/install/turtlebot3_simulations:/home/seohyeongmi/ros2_ws/install/turtlebot3_gazebo:/home/seohyeongmi/ros2_ws/install/turtlebot3_fake_node:/home/seohyeongmi/ros2_ws/install/ros2_term_project:/home/seohyeongmi/ros2_ws/install/ros2_artificial_potential_field:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a7938a90-f7f4-4025-959f-3dd0bfac6ef6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seohyeongmi/ros2_ws/install/turtlebot3_simulations:/home/seohyeongmi/ros2_ws/install/turtlebot3_gazebo:/home/seohyeongmi/ros2_ws/install/turtlebot3_fake_node:/home/seohyeongmi/ros2_ws/install/ros2_term_project:/home/seohyeongmi/ros2_ws/install/ros2_artificial_potential_field:/opt/ros/humble')]), 'shell': False}
+[0.080450] (ros2_term_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_publisher_node\x1b[0m\n'}
+[0.099565] (-) TimerEvent: {}
+[0.109593] (ros2_term_project) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cmd_publisher_node.dir/src/cmd_publisher_node.cpp.o\x1b[0m\n'}
+[0.109930] (ros2_term_project) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cmd_publisher_node.dir/src/cmd_publisher.cpp.o\x1b[0m\n'}
+[0.199697] (-) TimerEvent: {}
+[0.300007] (-) TimerEvent: {}
+[0.400397] (-) TimerEvent: {}
+[0.500690] (-) TimerEvent: {}
+[0.601128] (-) TimerEvent: {}
+[0.701611] (-) TimerEvent: {}
+[0.802059] (-) TimerEvent: {}
+[0.902635] (-) TimerEvent: {}
+[1.003014] (-) TimerEvent: {}
+[1.103672] (-) TimerEvent: {}
+[1.204640] (-) TimerEvent: {}
+[1.305429] (-) TimerEvent: {}
+[1.348704] (ros2_term_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/cmd_publisher.h:5\x1b[m\x1b[K,\n'}
+[1.348936] (ros2_term_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:2\x1b[m\x1b[K:\n'}
+[1.349034] (ros2_term_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/map.h:25:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knodiscard\x1b[m\x1b[K\xe2\x80\x99 attribute applied to \xe2\x80\x98\x1b[01m\x1b[Kvoid Map::get_distance_and_closest_obstacle(const point3d&, float&, octomap::point3d&) const\x1b[m\x1b[K\xe2\x80\x99 with void return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes\x07-Wattributes\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.349147] (ros2_term_project) StderrLine: {'line': b'   25 |   [[nodiscard]] void \x1b[01;35m\x1b[Kget_distance_and_closest_obstacle\x1b[m\x1b[K(const octomap::point3d& search_point,\n'}
+[1.349240] (ros2_term_project) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.405556] (-) TimerEvent: {}
+[1.506182] (-) TimerEvent: {}
+[1.606698] (-) TimerEvent: {}
+[1.707211] (-) TimerEvent: {}
+[1.807678] (-) TimerEvent: {}
+[1.908240] (-) TimerEvent: {}
+[2.008693] (-) TimerEvent: {}
+[2.109076] (-) TimerEvent: {}
+[2.209563] (-) TimerEvent: {}
+[2.309881] (-) TimerEvent: {}
+[2.410182] (-) TimerEvent: {}
+[2.510512] (-) TimerEvent: {}
+[2.610856] (-) TimerEvent: {}
+[2.711190] (-) TimerEvent: {}
+[2.811520] (-) TimerEvent: {}
+[2.911878] (-) TimerEvent: {}
+[3.012196] (-) TimerEvent: {}
+[3.112546] (-) TimerEvent: {}
+[3.212875] (-) TimerEvent: {}
+[3.313264] (-) TimerEvent: {}
+[3.413697] (-) TimerEvent: {}
+[3.514032] (-) TimerEvent: {}
+[3.614411] (-) TimerEvent: {}
+[3.714862] (-) TimerEvent: {}
+[3.815248] (-) TimerEvent: {}
+[3.915578] (-) TimerEvent: {}
+[3.956356] (ros2_term_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/cmd_publisher.h:5\x1b[m\x1b[K,\n'}
+[3.956718] (ros2_term_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.956919] (ros2_term_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/include/map.h:25:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knodiscard\x1b[m\x1b[K\xe2\x80\x99 attribute applied to \xe2\x80\x98\x1b[01m\x1b[Kvoid Map::get_distance_and_closest_obstacle(const point3d&, float&, octomap::point3d&) const\x1b[m\x1b[K\xe2\x80\x99 with void return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes\x07-Wattributes\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.957067] (ros2_term_project) StderrLine: {'line': b'   25 |   [[nodiscard]] void \x1b[01;35m\x1b[Kget_distance_and_closest_obstacle\x1b[m\x1b[K(const octomap::point3d& search_point,\n'}
+[3.957280] (ros2_term_project) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.015687] (-) TimerEvent: {}
+[4.116075] (-) TimerEvent: {}
+[4.216428] (-) TimerEvent: {}
+[4.316780] (-) TimerEvent: {}
+[4.417212] (-) TimerEvent: {}
+[4.517607] (-) TimerEvent: {}
+[4.560608] (ros2_term_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CmdPublisher::moverobot()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.561018] (ros2_term_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:210:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PathNode>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.561244] (ros2_term_project) StderrLine: {'line': b'  210 |     if (\x1b[01;35m\x1b[Kcurrent_waypoint < path.size()\x1b[m\x1b[K)\n'}
+[4.561386] (ros2_term_project) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.561523] (ros2_term_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:223:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PathNode>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.561681] (ros2_term_project) StderrLine: {'line': b'  223 |     if (\x1b[01;35m\x1b[Ktarget_waypoint < path.size()\x1b[m\x1b[K)\n'}
+[4.561813] (ros2_term_project) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.563386] (ros2_term_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seohyeongmi/ros2_ws/src/ros2_term_project/src/cmd_publisher.cpp:265:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PathNode>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.563642] (ros2_term_project) StderrLine: {'line': b'  265 |     if (abs(x - goal_x) + abs(y - goal_y) < 0.2 || \x1b[01;35m\x1b[Kcurrent_waypoint >= path.size()\x1b[m\x1b[K)\n'}
+[4.563804] (ros2_term_project) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.617715] (-) TimerEvent: {}
+[4.718135] (-) TimerEvent: {}
+[4.818496] (-) TimerEvent: {}
+[4.918850] (-) TimerEvent: {}
+[5.019372] (-) TimerEvent: {}
+[5.119732] (-) TimerEvent: {}
+[5.220142] (-) TimerEvent: {}
+[5.320537] (-) TimerEvent: {}
+[5.420906] (-) TimerEvent: {}
+[5.521377] (-) TimerEvent: {}
+[5.621855] (-) TimerEvent: {}
+[5.722324] (-) TimerEvent: {}
+[5.822658] (-) TimerEvent: {}
+[5.923174] (-) TimerEvent: {}
+[6.023620] (-) TimerEvent: {}
+[6.124024] (-) TimerEvent: {}
+[6.224656] (-) TimerEvent: {}
+[6.325297] (-) TimerEvent: {}
+[6.425802] (-) TimerEvent: {}
+[6.526297] (-) TimerEvent: {}
+[6.626732] (-) TimerEvent: {}
+[6.727188] (-) TimerEvent: {}
+[6.827489] (-) TimerEvent: {}
+[6.927834] (-) TimerEvent: {}
+[7.028205] (-) TimerEvent: {}
+[7.128617] (-) TimerEvent: {}
+[7.228993] (-) TimerEvent: {}
+[7.329411] (-) TimerEvent: {}
+[7.429814] (-) TimerEvent: {}
+[7.530209] (-) TimerEvent: {}
+[7.630619] (-) TimerEvent: {}
+[7.730987] (-) TimerEvent: {}
+[7.831360] (-) TimerEvent: {}
+[7.931711] (-) TimerEvent: {}
+[8.032062] (-) TimerEvent: {}
+[8.132466] (-) TimerEvent: {}
+[8.232822] (-) TimerEvent: {}
+[8.333197] (-) TimerEvent: {}
+[8.433597] (-) TimerEvent: {}
+[8.533966] (-) TimerEvent: {}
+[8.634358] (-) TimerEvent: {}
+[8.734749] (-) TimerEvent: {}
+[8.835148] (-) TimerEvent: {}
+[8.935554] (-) TimerEvent: {}
+[9.035940] (-) TimerEvent: {}
+[9.136316] (-) TimerEvent: {}
+[9.236693] (-) TimerEvent: {}
+[9.337027] (-) TimerEvent: {}
+[9.437409] (-) TimerEvent: {}
+[9.537783] (-) TimerEvent: {}
+[9.638151] (-) TimerEvent: {}
+[9.738605] (-) TimerEvent: {}
+[9.839002] (-) TimerEvent: {}
+[9.939353] (-) TimerEvent: {}
+[10.039726] (-) TimerEvent: {}
+[10.140069] (-) TimerEvent: {}
+[10.240448] (-) TimerEvent: {}
+[10.340829] (-) TimerEvent: {}
+[10.441201] (-) TimerEvent: {}
+[10.541596] (-) TimerEvent: {}
+[10.641945] (-) TimerEvent: {}
+[10.742301] (-) TimerEvent: {}
+[10.842652] (-) TimerEvent: {}
+[10.943012] (-) TimerEvent: {}
+[11.043366] (-) TimerEvent: {}
+[11.143712] (-) TimerEvent: {}
+[11.244060] (-) TimerEvent: {}
+[11.344502] (-) TimerEvent: {}
+[11.444858] (-) TimerEvent: {}
+[11.545196] (-) TimerEvent: {}
+[11.645547] (-) TimerEvent: {}
+[11.745931] (-) TimerEvent: {}
+[11.846285] (-) TimerEvent: {}
+[11.946668] (-) TimerEvent: {}
+[12.047046] (-) TimerEvent: {}
+[12.147541] (-) TimerEvent: {}
+[12.247938] (-) TimerEvent: {}
+[12.348311] (-) TimerEvent: {}
+[12.448730] (-) TimerEvent: {}
+[12.549155] (-) TimerEvent: {}
+[12.649540] (-) TimerEvent: {}
+[12.749876] (-) TimerEvent: {}
+[12.850197] (-) TimerEvent: {}
+[12.950546] (-) TimerEvent: {}
+[13.050880] (-) TimerEvent: {}
+[13.151198] (-) TimerEvent: {}
+[13.251716] (-) TimerEvent: {}
+[13.352196] (-) TimerEvent: {}
+[13.452526] (-) TimerEvent: {}
+[13.552859] (-) TimerEvent: {}
+[13.653196] (-) TimerEvent: {}
+[13.753578] (-) TimerEvent: {}
+[13.853946] (-) TimerEvent: {}
+[13.954271] (-) TimerEvent: {}
+[14.054614] (-) TimerEvent: {}
+[14.154943] (-) TimerEvent: {}
+[14.255274] (-) TimerEvent: {}
+[14.355613] (-) TimerEvent: {}
+[14.455934] (-) TimerEvent: {}
+[14.556197] (-) TimerEvent: {}
+[14.656542] (-) TimerEvent: {}
+[14.756873] (-) TimerEvent: {}
+[14.857216] (-) TimerEvent: {}
+[14.957560] (-) TimerEvent: {}
+[15.057952] (-) TimerEvent: {}
+[15.158276] (-) TimerEvent: {}
+[15.258612] (-) TimerEvent: {}
+[15.358972] (-) TimerEvent: {}
+[15.459292] (-) TimerEvent: {}
+[15.559570] (-) TimerEvent: {}
+[15.659971] (-) TimerEvent: {}
+[15.760346] (-) TimerEvent: {}
+[15.860732] (-) TimerEvent: {}
+[15.961124] (-) TimerEvent: {}
+[16.061529] (-) TimerEvent: {}
+[16.161924] (-) TimerEvent: {}
+[16.262371] (-) TimerEvent: {}
+[16.362781] (-) TimerEvent: {}
+[16.463117] (-) TimerEvent: {}
+[16.563534] (-) TimerEvent: {}
+[16.663939] (-) TimerEvent: {}
+[16.699674] (ros2_term_project) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable cmd_publisher_node\x1b[0m\n'}
+[16.764121] (-) TimerEvent: {}
+[16.864634] (-) TimerEvent: {}
+[16.965374] (-) TimerEvent: {}
+[17.066149] (-) TimerEvent: {}
+[17.166839] (-) TimerEvent: {}
+[17.267666] (-) TimerEvent: {}
+[17.368622] (-) TimerEvent: {}
+[17.469540] (-) TimerEvent: {}
+[17.570206] (-) TimerEvent: {}
+[17.670664] (-) TimerEvent: {}
+[17.770948] (-) TimerEvent: {}
+[17.871208] (-) TimerEvent: {}
+[17.971498] (-) TimerEvent: {}
+[18.071903] (-) TimerEvent: {}
+[18.172242] (-) TimerEvent: {}
+[18.203759] (ros2_term_project) StdoutLine: {'line': b'[100%] Built target cmd_publisher_node\n'}
+[18.218925] (ros2_term_project) CommandEnded: {'returncode': 0}
+[18.219767] (ros2_term_project) JobProgress: {'identifier': 'ros2_term_project', 'progress': 'install'}
+[18.230101] (ros2_term_project) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project'], 'cwd': '/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'seohyeongmi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seohyeongmi'), ('OLDPWD', '/home/seohyeongmi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1407'), ('SYSTEMD_EXEC_PID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10471'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seohyeongmi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seohyeongmi'), ('JOURNAL_STREAM', '8:12639'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seohyeongmi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/seohyeongmi-14Z990-GR5DK:@/tmp/.ICE-unix/1545,unix/seohyeongmi-14Z990-GR5DK:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'bc8256da7b97468f84c799333d9c4d46'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ED5422'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/seohyeongmi/ros2_ws/install/turtlebot3_simulations:/home/seohyeongmi/ros2_ws/install/turtlebot3_gazebo:/home/seohyeongmi/ros2_ws/install/turtlebot3_fake_node:/home/seohyeongmi/ros2_ws/install/ros2_term_project:/home/seohyeongmi/ros2_ws/install/ros2_artificial_potential_field:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a7938a90-f7f4-4025-959f-3dd0bfac6ef6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seohyeongmi/ros2_ws/src/ros2_term_project/build/ros2_term_project'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seohyeongmi/ros2_ws/install/turtlebot3_simulations:/home/seohyeongmi/ros2_ws/install/turtlebot3_gazebo:/home/seohyeongmi/ros2_ws/install/turtlebot3_fake_node:/home/seohyeongmi/ros2_ws/install/ros2_term_project:/home/seohyeongmi/ros2_ws/install/ros2_artificial_potential_field:/opt/ros/humble')]), 'shell': False}
+[18.239661] (ros2_term_project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.240845] (ros2_term_project) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.241445] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/lib/ros2_term_project/cmd_publisher_node\n'}
+[18.254013] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/launch/simulation_launch.py\n'}
+[18.263331] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/package_run_dependencies/ros2_term_project\n'}
+[18.272420] (-) TimerEvent: {}
+[18.274174] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/parent_prefix_path/ros2_term_project\n'}
+[18.284563] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/ament_prefix_path.sh\n'}
+[18.293920] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/ament_prefix_path.dsv\n'}
+[18.307100] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/path.sh\n'}
+[18.317644] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/environment/path.dsv\n'}
+[18.326759] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.bash\n'}
+[18.337239] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.sh\n'}
+[18.346450] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.zsh\n'}
+[18.357290] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/local_setup.dsv\n'}
+[18.367701] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/package.dsv\n'}
+[18.372555] (-) TimerEvent: {}
+[18.377153] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/packages/ros2_term_project\n'}
+[18.388386] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/cmake/ros2_term_projectConfig.cmake\n'}
+[18.397535] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/cmake/ros2_term_projectConfig-version.cmake\n'}
+[18.409310] (ros2_term_project) StdoutLine: {'line': b'-- Symlinking: /home/seohyeongmi/ros2_ws/src/ros2_term_project/install/ros2_term_project/share/ros2_term_project/package.xml\n'}
+[18.421157] (ros2_term_project) CommandEnded: {'returncode': 0}
+[18.441696] (ros2_term_project) JobEnded: {'identifier': 'ros2_term_project', 'rc': 0}
+[18.442660] (-) EventReactorShutdown: {}
