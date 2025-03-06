@@ -2,7 +2,6 @@
 #define ROS2_TERM_PROJECT_CMD_PUBLISHER_H
 
 #include "geometry_msgs/msg/twist.hpp"
-#include "map.h"
 #include "octomap/OcTree.h"
 #include "pathfinder.h"
 #include "rclcpp/rclcpp.hpp"
@@ -29,7 +28,6 @@ public:
 private:
     void timer_tf_callback();
     void timer_cmd_callback();
-    void octomap_callback(const OctomapMsg &octomap_msg); // Octomap 콜백
     void moverobot();
     void visualizePath(const std::vector<PathNode> &path);
     void goal_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg);
@@ -54,8 +52,6 @@ private:
     double resolution; 
     double origin_x;    
     double origin_y;
-
-    Map map;
 
     rclcpp::TimerBase::SharedPtr timer_cmd, timer_tf;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd;
