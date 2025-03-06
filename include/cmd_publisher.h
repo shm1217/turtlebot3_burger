@@ -52,6 +52,7 @@ private:
     double resolution; 
     double origin_x;    
     double origin_y;
+    bool map_update=false;
 
     rclcpp::TimerBase::SharedPtr timer_cmd, timer_tf;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd;
